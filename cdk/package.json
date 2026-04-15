@@ -1,0 +1,24 @@
+{
+  "name": "datadog-repro-cdk",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsc",
+    "cdk": "cdk"
+  },
+  "engines": {
+    "npm": ">=10.2.4",
+    "node": ">=24.11.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.x",
+    "aws-cdk": "2.1114.0",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.7.0"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.248.0",
+    "constructs": "^10.6.0",
+    "datadog-cdk-constructs-v2": "^3.10.0",
+    "source-map-support": "^0.5.21"
+  }
+}
